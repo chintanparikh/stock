@@ -1,5 +1,6 @@
 require "stock/version"
+require "stock/stock"
 
 module Stock
-  # Your code goes here...
+  include Stock
 end
